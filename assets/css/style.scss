@@ -142,20 +142,10 @@ html {
   z-index: -99 !important;
 }
 
-.carousel-item:after {
-  content:'';
-  display:block;
-  position:absolute;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-  background:$color-black-t;
-}
-
 .carousel-text {
   top: 0;
   left: 0;
+  background:$color-black-t;
 }
 
 /* CONTACT MAIN */
