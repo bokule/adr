@@ -93,9 +93,16 @@ html {
 
 .m-nav-link {
   color: $nav-link-color !important;
+  i {
+    color: $nav-link-color !important;
+  }
   &:hover {
     color: $nav-link-hover-color !important;
     background-color: $color-transparent !important; /* Removes default hover effect */
+    i {
+      color: $nav-link-hover-color !important;
+      background-color: $color-transparent !important; /* Removes default hover effect */
+    }
   }
 }
 

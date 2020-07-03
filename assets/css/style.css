@@ -84,7 +84,17 @@ html {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
+.m-nav-link i {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
 .m-nav-link:hover {
+  color: rgba(255, 255, 255, 0.75) !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+  /* Removes default hover effect */
+}
+
+.m-nav-link:hover i {
   color: rgba(255, 255, 255, 0.75) !important;
   background-color: rgba(0, 0, 0, 0) !important;
   /* Removes default hover effect */
