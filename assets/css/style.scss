@@ -1,8 +1,12 @@
 $color-white: #fff;
 $color-black: #212121;
-$color-black-t: rgba(0,0,0,0.6);
+$color-black-t: rgba(0, 0, 0, 0.6);
 $color-red: #fd4046;
 $color-red-t: rgba(253, 64, 70, 0.25);
+$color-transparent: rgba(0, 0, 0, 0);
+
+$nav-link-color: rgba(255, 255, 255, 0.5);
+$nav-link-hover-color: rgba(255, 255, 255, 0.75);
 
 @font-face {
     src: url("../fonts/VarelaRound-Regular.ttf");
@@ -87,8 +91,19 @@ html {
   padding-bottom: 1rem !important;
 }
 
-.transp-bg:hover {
-  background-color: rgba(0,0,0,0) !important; /* Eliminates default hover effect */
+.m-nav-link {
+  color: $nav-link-color !important;
+  &:hover {
+    color: $nav-link-hover-color !important;
+    background-color: $color-transparent !important; /* Removes default hover effect */
+  }
+}
+
+.m-active {
+  color: $color-white !important;
+  &:hover {
+    color: $color-white !important;
+  }
 }
 
 .m-text-uppercase {

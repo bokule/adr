@@ -80,9 +80,22 @@ html {
   padding-bottom: 1rem !important;
 }
 
-.transp-bg:hover {
+.m-nav-link {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.m-nav-link:hover {
+  color: rgba(255, 255, 255, 0.75) !important;
   background-color: rgba(0, 0, 0, 0) !important;
-  /* Eliminates default hover effect */
+  /* Removes default hover effect */
+}
+
+.m-active {
+  color: #fff !important;
+}
+
+.m-active:hover {
+  color: #fff !important;
 }
 
 .m-text-uppercase {
