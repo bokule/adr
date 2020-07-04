@@ -185,6 +185,15 @@ textarea::-webkit-scrollbar-thumb {
   background-color: #fd4046;
 }
 
+/* AUTHOR MAIN */
+.m-navbar {
+  z-index: 1 !important;
+}
+
+.modal-trigger {
+  z-index: 0 !important;
+}
+
 /* FOOTER */
 .link a {
   width: 70px;
